@@ -1,0 +1,5 @@
+{
+  "name": "VisualStash",
+  "description": "A modern, high-fidelity Chrome Extension side panel for managing bookmarks visually.",
+  "requestFramePermissions": []
+}
