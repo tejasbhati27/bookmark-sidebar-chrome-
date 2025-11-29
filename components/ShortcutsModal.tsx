@@ -38,7 +38,7 @@ const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose }) => {
 
         <div className="p-6">
           <ShortcutItem keys={['Ctrl', 'Shift', 'M']} description="Save to Last Used Category" />
-          <ShortcutItem keys={['Alt', 'V']} description="Open Side Panel / Focus" />
+          <ShortcutItem keys={['Alt', 'Q']} description="Open Side Panel / Focus" />
           <ShortcutItem keys={['Alt', 'S']} description="Save to Active Category" />
           <ShortcutItem keys={['Ctrl', 'K']} description="Focus Search" />
           <ShortcutItem keys={['Ctrl', 'B']} description="Toggle Bulk Selection" />
