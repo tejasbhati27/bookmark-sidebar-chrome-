@@ -66,7 +66,7 @@ Follow these instructions to get the extension up and running on your local mach
 *   Click on categories to filter your bookmarks.
 *   Use the search bar to find specific bookmarks.
 *   Switch between list and grid view using the toggle button.
-*   Use the lock icon to access your private "Locked" folder.
+*   Use the lock icon to access your private "Locked" folder.[Pass - 0007]
 
 ## 🤝 Contributing
 
