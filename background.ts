@@ -61,8 +61,8 @@ const saveBookmark = async (url: string, title: string, category: string) => {
     const data: StorageData = result[STORAGE_KEY] || {
       categories: DEFAULT_CATEGORIES,
       bookmarks: [],
-      secretPassword: '1234',
-      secretCategoryName: 'Secret',
+      secretPassword: '0007',
+      secretCategoryName: 'Locked',
       categoryUsage: {}
     };
 
@@ -145,7 +145,7 @@ const updateContextMenus = async () => {
       sortedCategories.forEach((category) => {
         // Use custom name for Secret category if available
         let title = category;
-        if (category === 'Secret' && data.secretCategoryName) {
+        if (category === 'Locked' && data.secretCategoryName) {
           title = data.secretCategoryName;
         }
 

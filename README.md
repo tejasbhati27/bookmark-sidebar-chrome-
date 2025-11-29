@@ -1,23 +1,77 @@
-<img width="1363" height="645" alt="image" src="https://github.com/user-attachments/assets/9c5ecc7c-e03e-4d93-bbf4-2704732f2f2b" />
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# VisualStash - A Modern Bookmark Manager
 
-This contains everything you need to run your app locally.
+VisualStash is a sleek and powerful Chrome extension for visually organizing your bookmarks. It provides a beautiful and intuitive interface to save, categorize, and manage your links.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1gxnmX0fa9YnN6kMfJYVo6BNVXxm6xxM2
+## ✨ Features
 
-## Run Locally
+*   **Visual Bookmarking:** Save and organize bookmarks with rich previews.
+*   **Categorization:** Organize your bookmarks into custom categories.
+*   **Locked Folder:** Keep your private bookmarks safe in a password-protected "Locked" folder.
+*   **Powerful Search:** Instantly search through your bookmarks by title, URL, or content.
+*   **List & Grid Views:** Choose between a compact list view or a visual grid view.
+*   **Bulk Actions:** Easily move or delete multiple bookmarks at once.
+*   **Keyboard Shortcuts:** Navigate and manage your bookmarks with handy keyboard shortcuts.
+*   **Dark/Light Theme:** Switch between a light and dark theme to match your preference.
+*   **Data Import/Export:** (Coming soon) Easily import and export your data.
 
-**Prerequisites:**  Node.js
+## 🚀 Getting Started
 
+Follow these instructions to get the extension up and running on your local machine for development and testing purposes.
 
-1. Install dependencies:
-   `npm install`
-2. Run 'npm run build'
-3A. To load extension go to load unpack in chrome://extensions/ page , then select the extension folder , make sure that you go inside 'dist' folder and click ok/select folder . The extensio will be loaded successfully . make sure you run both 1st and 2nd commmands .
-3B. Run the app:
-   `npm run dev`
-"# reading-list-v0.2" 
+### Prerequisites
+
+*   [Node.js](https://nodejs.org/) (v18 or later recommended)
+*   [Google Chrome](https://www.google.com/chrome/)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/tejasbhati27/bookmark-sidebar-chrome-.git
+    cd bookmark-sidebar-chrome-
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Build the extension for production:**
+    ```bash
+    npm run build
+    ```
+    This will create a `dist` folder with the bundled extension files.
+
+4.  **Load the extension in Chrome:**
+    *   Open Chrome and navigate to `chrome://extensions`.
+    *   Enable "Developer mode" in the top right corner.
+    *   Click on "Load unpacked".
+    *   Select the `dist` folder that was created in the previous step.
+
+5.  **Run in Development Mode (Optional):**
+    For local development with hot-reloading, you can run:
+    ```bash
+    npm run dev
+    ```
+    This will watch for file changes and automatically rebuild the extension. You will still need to load the `dist` folder as an unpacked extension in Chrome. After the initial load, changes will be reflected automatically.
+
+## Usage
+
+*   Click the VisualStash icon in your Chrome toolbar to open the bookmark manager.
+*   Use the "Stash Page" button to save the current tab to a category.
+*   Click on categories to filter your bookmarks.
+*   Use the search bar to find specific bookmarks.
+*   Switch between list and grid view using the toggle button.
+*   Use the lock icon to access your private "Locked" folder.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

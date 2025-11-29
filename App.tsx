@@ -13,8 +13,8 @@ import { generateId, getHostname, getFaviconUrl, getMonthYear } from './utils';
 declare const chrome: any;
 
 const STORAGE_KEY = 'visual_stash_data';
-const DEFAULT_PASSWORD = '1234';
-const DEFAULT_SECRET_NAME = 'Secret';
+const DEFAULT_PASSWORD = '0007';
+const DEFAULT_SECRET_NAME = 'Locked';
 
 const App: React.FC = () => {
   // Data State
